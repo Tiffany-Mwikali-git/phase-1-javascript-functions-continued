@@ -13,3 +13,24 @@ const wrapAdjective = function(parameter = '*') {
 
     
 }
+
+const returnFirstTwoDrivers = function(names) {
+
+}
+const returnLastTwoDrivers = function(){
+    return names.slice(-2,names.length)
+}
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+
+function createFareMultiplier(int) {
+    return function(fare) {
+        return fare * int;
+    }
+
+}
+const fareDoubler = createFareMultiplier(2)
+const fareTripler = createFareMultiplier(3)
+
+function selectDifferentDrivers(names, ab) {
+    return ab(int)
+}
